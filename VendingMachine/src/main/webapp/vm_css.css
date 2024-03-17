@@ -12,13 +12,17 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 }
-#insertframe{
+#panelframe{
 	margin-top: 5px;
 	border: solid 1px red;
 	width: 180px;
 	height: 400px;
 }
 #productframe{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
 	margin: 5px;
 	border: solid 1px blue;
 	width: 500px;
@@ -30,4 +34,30 @@ body {
 	border: solid 1px green;
 	width: 680px;
 	height: 200px;
+}
+#coinframe{
+	margin-top: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: solid 1px lime;
+}
+.coinbtn{
+	margin: 5px;
+	width: 80px;
+	height: 50px;
+}
+.prod{
+	display: flex;
+	justify-content: center;
+	flex-flow:column;
+	align-items: center;
+	border: solid 1px pink;
+	width: 160px;
+	height: 200px;
+}
+.prodbtn{
+	border: solid 1px pink;
+	width: 150px;
+	height: 50px;
 }
