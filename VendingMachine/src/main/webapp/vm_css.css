@@ -16,7 +16,7 @@ body {
 }
 #panelframe{
 	margin-top: 5px;
-	border: solid 1px red;
+	border: solid 1px #88a6b0;
 	width: 180px;
 	height: 400px;
 	background-color: white;
@@ -27,15 +27,15 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	margin: 5px;
-	border: solid 1px blue;
+	border: solid 1px #88a6b0;
 	width: 500px;
 	height: 600px;
-	background-color: grey;
+	background-color: rgb(50,50,50);
 }
 
 #extractframe{
 	margin: 10px;
-	border: solid 1px green;
+	border: solid 1px #88a6b0;
 	width: 680px;
 	height: 200px;
 	background-color: grey;
@@ -45,12 +45,19 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border: solid 1px lime;
+	flex-wrap: wrap;
+	border: solid 1px #88a6b0;
 	background-color: white;
+}
+#coinremain{
+	text-align:center;
+	width: 150px;
+	height: 50px;
+	background-color: grey;
 }
 .coinbtn{
 	margin: 5px;
-	width: 80px;
+	width: 70px;
 	height: 50px;
 }
 .prod{
@@ -58,14 +65,14 @@ body {
 	justify-content: center;
 	flex-flow:column;
 	align-items: center;
-	border: solid 1px pink;
+	border: solid 1px #88a6b0;
 	border-radius: 2%;
 	width: 160px;
 	height: 200px;
 	background-color: white;
 }
 .prodbtn{
-	border: solid 1px pink;
+	border: solid 1px #88a6b0;
 	width: 150px;
 	height: 50px;
 }
